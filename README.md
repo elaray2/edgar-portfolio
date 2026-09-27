@@ -51,7 +51,7 @@ Como los enlaces y recursos usan rutas relativas, la página puede publicarse ta
 
 ## Historial de Git y publicación
 
-Esta carpeta ya tiene un repositorio local en la rama `main` y cinco commits que separan la estructura visual, las interacciones y la documentación. Puedes revisarlos con:
+Esta carpeta ya tiene un repositorio local en la rama `main` y varios commits que separan la estructura visual, las interacciones y la documentación. Puedes revisarlos con:
 
 ```powershell
 git log --oneline
@@ -65,14 +65,14 @@ git add index.html styles.css script.js
 git commit -m "feat: describe el cambio realizado"
 ```
 
-Después de crear un repositorio público vacío en GitHub, conecta su URL y publica esta rama. Sustituye `<nombre-del-repositorio>` por el nombre que elijas:
+Después de crear un repositorio público vacío en GitHub, conecta su URL y publica esta rama. Sustituye `NOMBRE-DEL-REPOSITORIO` por el nombre que elijas:
 
 ```powershell
-git remote add origin https://github.com/elaray2/<nombre-del-repositorio>.git
+git remote add origin https://github.com/elaray2/NOMBRE-DEL-REPOSITORIO.git
 git push -u origin main
 ```
 
-Si ya existe `origin`, actualiza su URL con `git remote set-url origin ...`. Revisa la URL antes de publicar.
+Si ya existe `origin`, actualiza su URL con `git remote set-url origin https://github.com/elaray2/NOMBRE-DEL-REPOSITORIO.git`. Revisa la URL antes de publicar.
 
 ## Decisiones de contacto
 
