@@ -49,21 +49,30 @@ El enunciado de la asignatura solicita mínimo tres proyectos. Esta versión doc
 
 Como los enlaces y recursos usan rutas relativas, la página puede publicarse tanto desde la raíz como desde un subdirectorio de GitHub Pages.
 
-## Versionar con varios commits
+## Historial de Git y publicación
 
-Haz commits pequeños que describan avances reales. Por ejemplo, dentro de esta carpeta:
+Esta carpeta ya tiene un repositorio local en la rama `main` y cinco commits que separan la estructura visual, las interacciones y la documentación. Puedes revisarlos con:
 
 ```powershell
-git init -b main
-git add index.html styles.css
-git commit -m "feat: crea estructura y sistema visual del portafolio"
-git add script.js
-git commit -m "feat: agrega interacciones y validación local"
-git add README.md assets
-git commit -m "docs: agrega guía y capturas de proyectos"
+git log --oneline
 ```
 
-Después conecta el repositorio remoto que hayas creado y publica los commits. Revisa tu configuración de Git antes del primer commit para que el autor quede asociado a la cuenta correcta.
+Para cada cambio nuevo, revisa el diff y crea un commit con un mensaje claro:
+
+```powershell
+git status
+git add index.html styles.css script.js
+git commit -m "feat: describe el cambio realizado"
+```
+
+Después de crear un repositorio público vacío en GitHub, conecta su URL y publica esta rama. Sustituye `<nombre-del-repositorio>` por el nombre que elijas:
+
+```powershell
+git remote add origin https://github.com/elaray2/<nombre-del-repositorio>.git
+git push -u origin main
+```
+
+Si ya existe `origin`, actualiza su URL con `git remote set-url origin ...`. Revisa la URL antes de publicar.
 
 ## Decisiones de contacto
 
