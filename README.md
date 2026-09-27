@@ -76,4 +76,4 @@ Si ya existe `origin`, actualiza su URL con `git remote set-url origin https://g
 
 ## Decisiones de contacto
 
-No se inventó un correo ni se publicó información personal sensible. El perfil de GitHub es el único enlace de contacto público en esta versión. El formulario demuestra estructura y validación front-end, pero informa que no transmite datos.
+No se inventó un correo ni se publicó información personal sensible. Se usa un avatar de iniciales en lugar de una fotografía personal. El perfil de GitHub es el único enlace de contacto público en esta versión. El formulario demuestra estructura y validación front-end, pero informa que no transmite datos.
