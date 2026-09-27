@@ -27,11 +27,23 @@ También puedes abrir `index.html` directamente, aunque un servidor local reprod
 
 - [Portafolio en escritorio](assets/capturas/portafolio-escritorio.png)
 - [Portafolio en móvil](assets/capturas/portafolio-movil.png)
-- [Inicio de sesión de CacaoDetect](assets/capturas/cacaodetect-inicio-sesion.png)
-- [Registro de CacaoDetect](assets/capturas/cacaodetect-registro.png)
-- [Portada Seiko Insignia](assets/capturas/seiko-insignia-inicio.png)
 
-La captura de CacaoDetect muestra la pantalla de acceso. La inferencia de imágenes requiere los pesos del modelo, que no están incluidos en el repositorio descargado. No se presenta una detección como si fuera un resultado real.
+Las capturas de los proyectos están separadas por carpeta:
+
+### CacaoDetect
+
+- [Panel de administración](assets/capturas/cacaodetect/panel-administracion.png)
+- [Vista del detector de humedad](assets/capturas/cacaodetect/detector-humedad.png)
+- [Vista de captura de imágenes](assets/capturas/cacaodetect/captura-imagenes.png)
+- [Inicio de sesión](assets/capturas/cacaodetect/inicio-sesion.png)
+
+### Seiko Insignia
+
+- [Portada](assets/capturas/seiko/portada.png)
+- [Colección](assets/capturas/seiko/coleccion.png)
+- [Formulario demostrativo de reserva](assets/capturas/seiko/reserva.png)
+
+La inferencia de CacaoDetect requiere los pesos del modelo, que no están incluidos en el repositorio descargado. Las capturas documentan la interfaz disponible; no se presentan como resultados de detección.
 
 ## Proyectos incluidos
 
