@@ -25,6 +25,8 @@ También puedes abrir `index.html` directamente, aunque un servidor local reprod
 
 ## Capturas locales
 
+- [Portafolio en escritorio](assets/capturas/portafolio-escritorio.png)
+- [Portafolio en móvil](assets/capturas/portafolio-movil.png)
 - [Inicio de sesión de CacaoDetect](assets/capturas/cacaodetect-inicio-sesion.png)
 - [Registro de CacaoDetect](assets/capturas/cacaodetect-registro.png)
 - [Portada Seiko Insignia](assets/capturas/seiko-insignia-inicio.png)
